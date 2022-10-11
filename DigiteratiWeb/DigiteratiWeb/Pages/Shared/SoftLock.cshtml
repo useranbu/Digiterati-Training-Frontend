@@ -1,0 +1,23 @@
+﻿@page "/SoftLock"
+@model Web_App.Pages.Shared.SoftLockModel
+@{
+}
+
+ <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<div> Awaiting Request </div>
+<table class="table">
+    <thead>
+    <th>Employee ID</th>
+    <th>EmployeeName</th>
+    <th>Manager</th>
+    <th>Request Message</th>
+    <th>Manager Status</th>
+    <th>Request Date</th>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+
+</table>
+
+<script src="~/js/SoftLock.js"></script>

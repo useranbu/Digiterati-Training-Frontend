@@ -1,0 +1,30 @@
+﻿@page "/Lock"
+@model Web_App.Pages.Shared.LockModel
+@{
+}
+
+ <script src="~/lib/jquery/dist/jquery.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+<div class="jumbotron">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>EmployeeId</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Manager</th>
+                <th>wfmmanager</th>
+                <th>email</th>
+                <th>lockStatus</th>
+                <th>Experience</th>
+                <th>ProfileId</th>
+                <th>Skills</th>
+                <th>Lock</th>
+            </tr>
+        </thead>
+        <tbody id="tdata">
+        </tbody>
+    </table>
+</div>
+<script src="~/js/lockapicall.js"></script>
