@@ -30,36 +30,3 @@ function dataread() {
 }
 
 dataread()
-
-//$(document).ready(
-//    function () {
-//        $('#store').click(function () {
-
-
-//            $.ajax({
-//                url: '',
-//                dataType: 'json',
-//                type: 'post',
-//                contentType: 'application/json',
-//                data: JSON.stringify({
-//                    sno: $('#').val(),
-//                    name: $('#name').val(),
-//                    city: $('#city').val()
-//                }),
-//                processData: false,
-//                success: function (data, textStatus, jQxhr) {
-//                    alert("data successfully stored")
-//                    dataread()
-
-//                },
-//                error: function (jqXhr, textStatus, errorThrown) {
-//                    alert("problem in storing the data")
-//                }
-//            });
-
-
-
-//        })
-
-//    }
-//)
